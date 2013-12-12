@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+<TextView
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Do you like our site?"/>
+ 
+<RadioGroup
+android:id="@+id/radioGroup"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical" >
+ 
+<RadioButton
+android:id="@+id/radioButton1"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Excellent " />
+ 
+<RadioButton
+android:id="@+id/radioButton2"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Satisfactory" />
+ 
+<RadioButton
+android:id="@+id/radioButton3"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Below Average" />
+ 
+<Button
+android:id="@+id/clearRadioButtonBtn"
+android:layout_width="138dp"
+android:layout_height="wrap_content"
+android:layout_gravity="center_horizontal"
+android:layout_marginRight="20dip"
+android:paddingLeft="20dip"
+android:paddingRight="20dip"
+android:onClick="clear"
+android:text="Clear " />
+</RadioGroup>
+
+</LinearLayout>
